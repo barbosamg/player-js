@@ -1,4 +1,4 @@
-window.audios = [
+export default [
     {
         title: 'Highway to Hell AC/DC',
         artist: 'AC/DC',

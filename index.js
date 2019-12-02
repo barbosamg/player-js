@@ -1,9 +1,11 @@
+import player from './player.js';
+
 window.addEventListener('load', () => {
     player.start();
     alterarCorTituloCard();
 });
 
-function alterarCorTituloCard(){
+function alterarCorTituloCard() {
     let tituloCard = document.querySelector('#player h4');
     var cores = ['red', 'blue', 'black', 'green', 'yellow', 'orange', 'purple', 'skyblue'];
     var contador = 0;
